@@ -1,0 +1,38 @@
+site_name: ETC2073 AI Labs
+site_url: https://ricwtk.github.io/etc2073-ai-labs
+docs_dir: src
+site_dir: docs
+theme:
+  name: material
+  custom_dir: "custom"
+  favicon: img/favicon.ico
+  logo: img/favicon.ico
+  palette:
+    scheme: default
+    primary: indigo
+    accent: indigo
+  features:
+    - toc.integrate
+    - navigation.tabs
+markdown_extensions:
+  - meta
+  - pymdownx.tabbed
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+extra_javascript:
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+extra_css:
+  - stylesheets/extra.css
+nav:
+  - Current:
+    - Overview: index.md
+    - get-start.md
+    - pre-lab.md
