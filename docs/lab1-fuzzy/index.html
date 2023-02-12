@@ -318,28 +318,20 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#fuzzy-systems" class="md-nav__link">
-    Fuzzy Systems
-  </a>
-  
-    <nav class="md-nav" aria-label="Fuzzy Systems">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#lab-learning-outcomes" class="md-nav__link">
     Lab learning outcomes
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#note" class="md-nav__link">
     Note
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#fuzzy-control-system-for-a-train" class="md-nav__link">
     Fuzzy control system for a train
   </a>
@@ -386,16 +378,11 @@
     </nav>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#fuzzy-tipping-recommendation-system" class="md-nav__link">
     Fuzzy tipping recommendation system
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -436,18 +423,17 @@
 
 
 <h1 id="lab-1-fuzzy-systems">Lab 1: Fuzzy Systems</h1>
-<h2 id="fuzzy-systems">Fuzzy Systems</h2>
-<h3 id="lab-learning-outcomes">Lab learning outcomes</h3>
+<h2 id="lab-learning-outcomes">Lab learning outcomes</h2>
 <p>After completing this lab, the students are able to</p>
 <ul>
 <li>construct a Mamdani fuzzy system using the <code>scikit-fuzzy</code> Python library and</li>
 <li>evaluate the result of the constructed fuzzy system.</li>
 </ul>
-<h3 id="note">Note</h3>
+<h2 id="note">Note</h2>
 <p>Install the <code>scikit-fuzzy</code> Python library in your environment before proceeding with the lab.</p>
 <div class="highlight"><pre><span></span><code><span class="n">conda</span> <span class="n">install</span> <span class="o">-</span><span class="n">c</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span> <span class="n">scikit</span><span class="o">-</span><span class="n">fuzzy</span>
 </code></pre></div>
-<h3 id="fuzzy-control-system-for-a-train">Fuzzy control system for a train</h3>
+<h2 id="fuzzy-control-system-for-a-train">Fuzzy control system for a train</h2>
 <ol>
 <li>
 <p>Consider a fuzzy control system to control the <strong>brake</strong> and <strong>throttle</strong> of a train based on the <strong>speed</strong> of the train and the <strong>distance</strong> of the train to the next stop.</p>
@@ -460,7 +446,7 @@
 </code></pre></div>
 </li>
 </ol>
-<h4 id="initialise-inputs-and-outputs">Initialise inputs and outputs</h4>
+<h3 id="initialise-inputs-and-outputs">Initialise inputs and outputs</h3>
 <ol>
 <li>
 <p>Speed and distance are the inputs of the system whereas brake and throttle are the outputs.</p>
@@ -509,7 +495,7 @@
 <div style='margin-top: 20px'></div>
 
 <p><strong>Task</strong>: Initialise the variables <code>distance</code> as <code>Antecedent</code> object, and <code>brake</code> and <code>throttle</code> as <code>Consequent</code> objects. (Outputs of the system will be consequents of the rules)</p>
-<h4 id="define-membership-functions-for-fuzzy-sets-of-variables">Define membership functions for fuzzy sets of variables</h4>
+<h3 id="define-membership-functions-for-fuzzy-sets-of-variables">Define membership functions for fuzzy sets of variables</h3>
 <ol>
 <li>
 <p>The fit vectors of the fuzzy sets for the linguistic variables are given as follows:</p>
@@ -723,7 +709,7 @@
 <p><strong>Task</strong>: Check if the fuzzy set diagrams match the fit vectors.</p>
 </li>
 </ol>
-<h4 id="define-rules">Define rules</h4>
+<h3 id="define-rules">Define rules</h3>
 <ol>
 <li>
 <p>The rules for this system are displayed in the following fuzzy association memory (FAM) representaion table.</p>
@@ -794,7 +780,7 @@
 <p><strong>Task</strong>: Define all the rules. Then combine all the rules in a <code>list</code>, i.e. <code>rules = [rule1, rule2, ...]</code>.</p>
 </li>
 </ol>
-<h4 id="construct-the-fuzzy-control-system">Construct the fuzzy control system</h4>
+<h3 id="construct-the-fuzzy-control-system">Construct the fuzzy control system</h3>
 <ol>
 <li>
 <p>The train control system can be constructed with</p>
@@ -829,7 +815,7 @@
 </code></pre></div>
 </li>
 </ol>
-<h4 id="view-the-controloutput-space">View the control/output space</h4>
+<h3 id="view-the-controloutput-space">View the control/output space</h3>
 <ol>
 <li>
 <p>The control/output space allows us to identify if the outputs fit our expectation.</p>
@@ -879,7 +865,7 @@
 </code></pre></div>
 </li>
 </ol>
-<h3 id="fuzzy-tipping-recommendation-system">Fuzzy tipping recommendation system</h3>
+<h2 id="fuzzy-tipping-recommendation-system">Fuzzy tipping recommendation system</h2>
 <ol>
 <li>
 <p>A fuzzy expert system is designed to identify the percentage of tips a customer will give based on the service and the food the customer received.</p>

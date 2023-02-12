@@ -1,21 +1,19 @@
 # Lab 1: Fuzzy Systems
 
-## Fuzzy Systems
-
-### Lab learning outcomes
+## Lab learning outcomes
 After completing this lab, the students are able to
 
 - construct a Mamdani fuzzy system using the `scikit-fuzzy` Python library and
 - evaluate the result of the constructed fuzzy system.
 
-### Note
+## Note
 Install the `scikit-fuzzy` Python library in your environment before proceeding with the lab.
 
 ```python
 conda install -c conda-forge scikit-fuzzy
 ```
 
-### Fuzzy control system for a train
+## Fuzzy control system for a train
 
 1. Consider a fuzzy control system to control the **brake** and **throttle** of a train based on the **speed** of the train and the **distance** of the train to the next stop.
 
@@ -27,7 +25,7 @@ conda install -c conda-forge scikit-fuzzy
     from skfuzzy import membership as mf
     ```
 
-#### Initialise inputs and outputs
+### Initialise inputs and outputs
 
 1. Speed and distance are the inputs of the system whereas brake and throttle are the outputs.
 
@@ -55,7 +53,7 @@ conda install -c conda-forge scikit-fuzzy
 
 **Task**: Initialise the variables `distance` as `Antecedent` object, and `brake` and `throttle` as `Consequent` objects. (Outputs of the system will be consequents of the rules)
 
-#### Define membership functions for fuzzy sets of variables
+### Define membership functions for fuzzy sets of variables
 
 1. The fit vectors of the fuzzy sets for the linguistic variables are given as follows:
 
@@ -134,7 +132,7 @@ conda install -c conda-forge scikit-fuzzy
 
     **Task**: Check if the fuzzy set diagrams match the fit vectors.
 
-#### Define rules
+### Define rules
 
 1. The rules for this system are displayed in the following fuzzy association memory (FAM) representaion table.
 
@@ -208,7 +206,7 @@ conda install -c conda-forge scikit-fuzzy
 
     **Task**: Define all the rules. Then combine all the rules in a `list`, i.e. `rules = [rule1, rule2, ...]`.
 
-#### Construct the fuzzy control system
+### Construct the fuzzy control system
 1. The train control system can be constructed with
     
     ```python
@@ -245,7 +243,7 @@ conda install -c conda-forge scikit-fuzzy
     throttle.view(sim=train)
     ```
 
-#### View the control/output space
+### View the control/output space
 
 1. The control/output space allows us to identify if the outputs fit our expectation.
 
@@ -295,7 +293,7 @@ conda install -c conda-forge scikit-fuzzy
     plot3d(x, y, z_throttle)
     ```
 
-### Fuzzy tipping recommendation system
+## Fuzzy tipping recommendation system
 
 1. A fuzzy expert system is designed to identify the percentage of tips a customer will give based on the service and the food the customer received.
 
