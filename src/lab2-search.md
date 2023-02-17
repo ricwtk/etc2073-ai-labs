@@ -179,10 +179,10 @@ def expandAndReturnChildren(state_space, node):
   children = []
   for [m,n,c] in state_space:
     if m == node.state:
-      childnode = Node(n, node.state)
+      childnode = Node(n, node)
       children.append(childnode)
     elif n == node:
-      childnode = Node(m, node.state)
+      childnode = Node(m, node)
       children.append(childnode)
   return children
 ```
@@ -210,10 +210,10 @@ def expandAndReturnChildren(state_space, node):
       children = []
       for [m,n,c] in state_space:
         if m == node.state:
-          childnode = Node(n, node.state)
+          childnode = Node(n, node)
           children.append(childnode)
         elif n == node:
-          childnode = Node(m, node.state)
+          childnode = Node(m, node)
           children.append(childnode)
       return children
     ```
@@ -317,7 +317,7 @@ Before a child is added to the frontier, it should be tested for goal. If it has
 Now that the algorithm has identified the goal_node, we can trace the solution through the parent of the goal node all the way back to the root node (node with no parent). Then the function should return the solution of BFS.
 
 ```python
-  solution = [trace_node.state]
+  solution = [goal_node.state]
   trace_node = goal_node
   while trace_node.parent is not None:
     solution.insert(0, trace_node.parent.state)
