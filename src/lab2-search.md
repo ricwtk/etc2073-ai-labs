@@ -181,7 +181,7 @@ def expandAndReturnChildren(state_space, node):
     if m == node.state:
       childnode = Node(n, node)
       children.append(childnode)
-    elif n == node:
+    elif n == node.state:
       childnode = Node(m, node)
       children.append(childnode)
   return children
@@ -212,7 +212,7 @@ def expandAndReturnChildren(state_space, node):
         if m == node.state:
           childnode = Node(n, node)
           children.append(childnode)
-        elif n == node:
+        elif n == node.state:
           childnode = Node(m, node)
           children.append(childnode)
       return children
