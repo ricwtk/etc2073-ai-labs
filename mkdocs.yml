@@ -37,4 +37,5 @@ nav:
     - get-start.md
     - pre-lab.md
     - lab1-fuzzy.md
-    - lab2-search.md
+    - lab2-uninformed-search.md
+    - lab3-informed-search.md

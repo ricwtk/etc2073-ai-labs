@@ -2,27 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://ricwtk.github.io/etc2073-ai-labs/</loc>
-         <lastmod>2023-02-17</lastmod>
+         <lastmod>2023-02-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ricwtk.github.io/etc2073-ai-labs/get-start/</loc>
-         <lastmod>2023-02-17</lastmod>
+         <lastmod>2023-02-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ricwtk.github.io/etc2073-ai-labs/lab1-fuzzy/</loc>
-         <lastmod>2023-02-17</lastmod>
+         <lastmod>2023-02-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ricwtk.github.io/etc2073-ai-labs/lab2-search/</loc>
-         <lastmod>2023-02-17</lastmod>
+         <loc>https://ricwtk.github.io/etc2073-ai-labs/lab2-uninformed-search/</loc>
+         <lastmod>2023-02-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ricwtk.github.io/etc2073-ai-labs/lab3-informed-search/</loc>
+         <lastmod>2023-02-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ricwtk.github.io/etc2073-ai-labs/pre-lab/</loc>
-         <lastmod>2023-02-17</lastmod>
+         <lastmod>2023-02-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
