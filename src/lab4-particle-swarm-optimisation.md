@@ -1,4 +1,4 @@
-# Lab 3: Particle Swarm Optimisastion
+# Lab 4: Particle Swarm Optimisastion
 
 
 ## Lab learning outcomes
