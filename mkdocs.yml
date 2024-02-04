@@ -35,9 +35,13 @@ nav:
   - Current:
     - Overview: index.md
     - get-start.md
-    - pre-lab.md
-    - lab1-fuzzy.md
-    - lab2-uninformed-search.md
-    - lab3-informed-search.md
-    - lab4-particle-swarm-optimisation.md
-    - lab5-decision-tree.md
+    - lab1-introductory-python.md
+  - Archive:
+    - 202301:
+      - archive/202301/get-start.md
+      - archive/202301/pre-lab.md
+      - archive/202301/lab1-fuzzy.md
+      - archive/202301/lab2-uninformed-search.md
+      - archive/202301/lab3-informed-search.md
+      - archive/202301/lab4-particle-swarm-optimisation.md
+      - archive/202301/lab5-decision-tree.md

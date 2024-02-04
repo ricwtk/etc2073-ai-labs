@@ -25,27 +25,23 @@ The labs are designed to follow the schedule of the lectures, therefore you will
         <div class="content"><a href="./get-start">Getting started</a></div>
     </div>
     <div class="container right">
-        <div class="date">Week 1</div>
-        <div class="content"><a href="./pre-lab">Pre-lab</a></div>
-    </div>
-    <div class="container right">
-        <div class="date">Week 2</div>
-        <div class="content"><a href="./lab1-fuzzy">Lab 1</a></div>
-    </div>
-    <div class="container right">
-        <div class="date">Week 3</div>
-        <div class="content"><a href="./lab2-uninformed-search">Lab 2</a></div>
+        <div class="date">Week 2-3</div>
+        <div class="content"><a href="./lab1-introductory-python">Lab 1 Introductory Python</a></div>
     </div>
     <div class="container right">
         <div class="date">Week 4</div>
-        <div class="content"><a href="./lab3-informed-search">Lab 3</a></div>
+        <div class="content"><a href="./lab2-fuzzy">Lab 2 Fuzzy Systems</a></div>
     </div>
     <div class="container right">
         <div class="date">Week 5</div>
-        <div class="content"><a href="./lab4">Lab 4</a></div>
+        <div class="content"><a href="./lab3-search">Lab 3 Search</a></div>
     </div>
     <div class="container right">
         <div class="date">Week 6</div>
-        <div class="content"><a href="./lab5">Lab 5</a></div>
+        <div class="content"><a href="./lab4-ga-pso">Lab 4 Genetic Algorithm + Particle Swarm Optimisation</a></div>
+    </div>
+    <div class="container right">
+        <div class="date">Week 7</div>
+        <div class="content"><a href="./lab5-machine-learning">Lab 5 Machine Learning</a></div>
     </div>
 </div>
