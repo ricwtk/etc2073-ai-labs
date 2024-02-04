@@ -1,4 +1,4 @@
-# Pre-lab: Basic Python
+# Lab 1: Introduction to Python
 
 ## Objective
 
