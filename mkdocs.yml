@@ -36,6 +36,7 @@ nav:
     - Overview: index.md
     - get-start.md
     - lab1-introductory-python.md
+    - lab2-fuzzy.md
   - Archive:
     - 202301:
       - archive/202301/get-start.md
