@@ -1,4 +1,4 @@
-# Lab 1: Fuzzy Systems
+# Lab 2: Fuzzy Systems
 
 ## Lab learning outcomes
 After completing this lab, the students are able to
