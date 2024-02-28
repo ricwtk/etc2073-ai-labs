@@ -34,11 +34,11 @@ The labs are designed to follow the schedule of the lectures, therefore you will
     </div>
     <div class="container right">
         <div class="date">Week 5</div>
-        <div class="content"><a href="./lab3-search">Lab 3 Search</a></div>
+        <div class="content"><a href="./lab3-genetic-algorithm">Lab 3 Genetic Algorithm</a></div>
     </div>
     <div class="container right">
         <div class="date">Week 6</div>
-        <div class="content"><a href="./lab4-ga-pso">Lab 4 Genetic Algorithm + Particle Swarm Optimisation</a></div>
+        <div class="content"><a href="./lab4-pso">Lab 4 Particle Swarm Optimisation</a></div>
     </div>
     <div class="container right">
         <div class="date">Week 7</div>
