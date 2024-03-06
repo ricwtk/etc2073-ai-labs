@@ -38,6 +38,8 @@ nav:
     - lab1-introductory-python.md
     - lab2-fuzzy.md
     - lab3-genetic-algorithm.md
+    - lab4-particle-swarm-optimisation.md
+    - lab5-decision-tree.md
   - Archive:
     - 202301:
       - archive/202301/get-start.md
