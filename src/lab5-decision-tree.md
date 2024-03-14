@@ -93,7 +93,7 @@ Decision tree models and algorithms are provided by the `scikit-learn` as the cl
         ```python
         plt.figure(figsize=[10,10])
         tree = plot_tree(dtc, feature_names=iris['attributes'].columns.tolist(), 
-                         class_names=iris['targetNames'], filled=True, rounded=True)
+                         class_names=list(iris['targetNames']), filled=True, rounded=True)
         ```
   
 The maximum depth of a decision tree can be defined by adding the `max_depth=...` argument to the `DecisionTreeClassifier(...)` object instantiation. To allow unlimited maximum depth, pass `max_depth=None`.
@@ -114,7 +114,7 @@ This section explains the method to visualise a decision tree on a graph. To do 
     ```python
     plt.figure(figsize=[50,50])
     plot_tree(dtc, feature_names=input_cols, 
-              class_names=iris['targetNames'], filled=True, rounded=True)
+              class_names=list(iris['targetNames']), filled=True, rounded=True)
     plt.savefig('classificationDecisionTreeWithNoMaxDepth.png')
     ```
 
