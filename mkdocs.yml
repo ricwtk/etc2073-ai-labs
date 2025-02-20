@@ -23,8 +23,8 @@ markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 extra_javascript:
   - javascripts/config.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
@@ -36,9 +36,8 @@ nav:
     - Overview: index.md
     - get-start.md
     - lab1-introductory-python.md
-    # - lab2-fuzzy.md
+    - lab2-fuzzy.md
     # - lab3-genetic-algorithm.md
-    # - lab4-particle-swarm-optimisation.md
     # - lab5-decision-tree.md
   - Archive:
     - 202301:
