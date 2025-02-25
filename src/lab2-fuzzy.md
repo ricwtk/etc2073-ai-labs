@@ -262,13 +262,13 @@ conda install -c conda-forge scikit-fuzzy
       for j,c in enumerate(r):
         train.input['speed'] = x[i,j]
         train.input['distance'] = y[i,j]
+        train.compute()
         try:
-          train.compute()
+          z_brake[i,j] = train.output['brake']
+          z_throttle[i,j] = train.output['throttle']  
         except:
           z_brake[i,j] = float('inf')
           z_throttle[i,j] = float('inf')
-        z_brake[i,j] = train.output['brake']
-        z_throttle[i,j] = train.output['throttle']
     ```
 
 4. Plot the result in a 3D graph using the `matplotlib.pyplot` library.
