@@ -37,7 +37,7 @@ nav:
     - get-start.md
     - lab1-introductory-python.md
     - lab2-fuzzy.md
-    # - lab3-genetic-algorithm.md
+    - lab3-genetic-algorithm.md
     # - lab5-decision-tree.md
   - Archive:
     - 202301:
