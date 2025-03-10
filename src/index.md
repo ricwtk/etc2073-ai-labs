@@ -42,6 +42,6 @@ The labs are designed to follow the schedule of the lectures, therefore you will
     </div> -->
     <div class="container right">
         <div class="date">Week 5</div>
-        <div class="content"><a href="./lab5-machine-learning">Lab 4 Machine Learning</a></div>
+        <div class="content"><a href="./lab4-decision-tree/">Lab 4 Machine Learning</a></div>
     </div>
 </div>
