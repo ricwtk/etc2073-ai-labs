@@ -36,9 +36,6 @@ nav:
     - Overview: index.md
     - get-start.md
     - lab1-introductory-python.md
-    - lab2-fuzzy.md
-    - lab3-genetic-algorithm.md
-    - lab4-decision-tree.md
   - Archive:
     - 202301:
       - archive/202301/get-start.md
@@ -55,3 +52,9 @@ nav:
       - archive/202401/lab3-genetic-algorithm.md
       - archive/202401/lab4-particle-swarm-optimisation.md
       - archive/202401/lab5-decision-tree.md
+    - 202501:
+      - archive/202501/get-start.md
+      - archive/202501/lab1-introductory-python.md
+      - archive/202501/lab2-fuzzy.md
+      - archive/202501/lab3-genetic-algorithm.md
+      - archive/202501/lab4-decision-tree.md
