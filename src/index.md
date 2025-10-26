@@ -21,19 +21,23 @@ The labs are designed to follow the schedule of the lectures, therefore you will
 
 <div class="timeline">
     <div class="container right">
-        <div class="date">Week 1</div>
+        <div class="date">Session 1</div>
         <div class="content"><a href="./get-start">Getting started</a></div>
     </div>
     <div class="container right">
-        <div class="date">Week 2</div>
+        <div class="date">Session 2</div>
         <div class="content"><a href="./lab1-introductory-python">Lab 1 Introductory Python</a></div>
     </div>
     <div class="container right">
-        <div class="date">Week 3</div>
+        <div class="date">Session 3</div>
         <div class="content"><a href="./lab2-fuzzy">Lab 2 Fuzzy Systems</a></div>
     </div>
     <div class="container right">
-        <div class="date">Week 4</div>
+        <div class="date">Session 4</div>
+        <div class="content"><a href="./lab3-uniformed-search">Lab 3 Uninformed Search Algorithm</a></div>
+    </div>
+    <div class="container right">
+        <div class="date">Session 5</div>
         <div class="content"><a href="./lab3-genetic-algorithm">Lab 3 Genetic Algorithm</a></div>
     </div>
     <!-- <div class="container right">
@@ -41,7 +45,7 @@ The labs are designed to follow the schedule of the lectures, therefore you will
         <div class="content"><a href="./lab4-pso">Lab 4 Particle Swarm Optimisation</a></div>
     </div> -->
     <div class="container right">
-        <div class="date">Week 5</div>
+        <div class="date">Session 6</div>
         <div class="content"><a href="./lab4-decision-tree/">Lab 4 Machine Learning</a></div>
     </div>
 </div>
