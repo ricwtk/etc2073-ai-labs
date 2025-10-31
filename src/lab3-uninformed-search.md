@@ -330,25 +330,25 @@ Now we have two functions `expandAndReturnChildren` and `bfs`, alongside with th
     
 To run a script to execute the `bfs` function, we can have the script file structured as such:
 
-    ```python
-    initial_state = 'Arad'
-    goal_state = 'Bucharest'
-    
-    state_space = [
-      ...
-    ]
+```python
+initial_state = 'Arad'
+goal_state = 'Bucharest'
 
-    class Node:
-      ...
+state_space = [
+  ...
+]
 
-    def expandAndReturnChildren(...):
-      ...
-      
-    def bfs(...):
-      ...
+class Node:
+  ...
 
-    print('Solution: ' + str(bfs(state_space, initial_state, goal_state)))
-    ```
+def expandAndReturnChildren(...):
+  ...
+  
+def bfs(...):
+  ...
+
+print('Solution: ' + str(bfs(state_space, initial_state, goal_state)))
+```
     
 Beware that in Python, a `.py` file can also be used to define a Python library/module. To prevent the commands outside the function to be executed when the file is used as a library instead of a script, we can implement an extra condition check.
 
@@ -383,7 +383,7 @@ Execute the script and resolve any error.
 1. How can you modify the code to run other uninformed search algorithms such as uniform-cost search, depth-first search, etc.? Which part(s) of the code do you need to modify? You may extend the discussion to informed search.
 
 2. What would you modify the script to implement BFS on the vacuum world problem?
-
+<!-- 
 ## Report
 
-Submit a report discussing the problems you have encountered, how you have solved them, and your answer for the questions.
+Submit a report discussing the problems you have encountered, how you have solved them, and your answer for the questions. -->

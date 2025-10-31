@@ -509,15 +509,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#report" class="md-nav__link">
-    <span class="md-ellipsis">
-      Report
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -1384,25 +1375,23 @@
 <h3 id="running-the-algorithm">Running the algorithm</h3>
 <p>Now we have two functions <code>expandAndReturnChildren</code> and <code>bfs</code>, alongside with the variables <code>state_space</code>, <code>initial_state</code>, and <code>goal_state</code>.</p>
 <p>To run a script to execute the <code>bfs</code> function, we can have the script file structured as such:</p>
-<div class="highlight"><pre><span></span><code>```python
-initial_state = &#39;Arad&#39;
-goal_state = &#39;Bucharest&#39;
+<div class="highlight"><pre><span></span><code><span class="n">initial_state</span> <span class="o">=</span> <span class="s1">&#39;Arad&#39;</span>
+<span class="n">goal_state</span> <span class="o">=</span> <span class="s1">&#39;Bucharest&#39;</span>
 
-state_space = [
-  ...
-]
+<span class="n">state_space</span> <span class="o">=</span> <span class="p">[</span>
+  <span class="o">...</span>
+<span class="p">]</span>
 
-class Node:
-  ...
+<span class="k">class</span> <span class="nc">Node</span><span class="p">:</span>
+  <span class="o">...</span>
 
-def expandAndReturnChildren(...):
-  ...
+<span class="k">def</span> <span class="nf">expandAndReturnChildren</span><span class="p">(</span><span class="o">...</span><span class="p">):</span>
+  <span class="o">...</span>
 
-def bfs(...):
-  ...
+<span class="k">def</span> <span class="nf">bfs</span><span class="p">(</span><span class="o">...</span><span class="p">):</span>
+  <span class="o">...</span>
 
-print(&#39;Solution: &#39; + str(bfs(state_space, initial_state, goal_state)))
-```
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Solution: &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">bfs</span><span class="p">(</span><span class="n">state_space</span><span class="p">,</span> <span class="n">initial_state</span><span class="p">,</span> <span class="n">goal_state</span><span class="p">)))</span>
 </code></pre></div>
 <p>Beware that in Python, a <code>.py</code> file can also be used to define a Python library/module. To prevent the commands outside the function to be executed when the file is used as a library instead of a script, we can implement an extra condition check.</p>
 <div class="highlight"><pre><span></span><code><span class="k">class</span> <span class="nc">Node</span><span class="p">:</span>
@@ -1436,8 +1425,10 @@ print(&#39;Solution: &#39; + str(bfs(state_space, initial_state, goal_state)))
 <p>What would you modify the script to implement BFS on the vacuum world problem?</p>
 </li>
 </ol>
-<h2 id="report">Report</h2>
-<p>Submit a report discussing the problems you have encountered, how you have solved them, and your answer for the questions.</p>
+<!-- 
+## Report
+
+Submit a report discussing the problems you have encountered, how you have solved them, and your answer for the questions. -->
 
 
 
