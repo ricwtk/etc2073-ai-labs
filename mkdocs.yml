@@ -38,6 +38,7 @@ nav:
     - lab1-introductory-python.md
     - lab2-fuzzy.md
     - lab3-uninformed-search.md
+    - lab4-genetic-algorithm.md
   - Archive:
     - 202301:
       - archive/202301/get-start.md
