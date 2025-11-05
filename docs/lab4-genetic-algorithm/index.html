@@ -462,15 +462,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#binary-to-gray-code-conversion" class="md-nav__link">
-    <span class="md-ellipsis">
-      Binary-to-gray code conversion
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#genetic-algorithm" class="md-nav__link">
     <span class="md-ellipsis">
       Genetic algorithm
@@ -1161,25 +1152,20 @@
 <h1 id="lab-4-genetic-algorithm">Lab 4: Genetic Algorithm</h1>
 <h2 id="lab-learning-outcomes">Lab learning outcomes</h2>
 <p>After completing this lab, the students are able to implement genetic algorithm to solve an optimisation problem.</p>
-<h2 id="binary-to-gray-code-conversion">Binary-to-gray code conversion</h2>
-<p>Binary string is often used in the implementation of genetic algorithm. However, the downside of using a binary code is that the Hamming distance between two adjacent values is not consistent. This situation is solved by using a Gray code in place of a binary code.</p>
-<ol>
-<li>
-<p><code>numpy</code> provides the function of <a href="https://het.as.utexas.edu/HET/Software/Numpy/reference/generated/numpy.binary_repr.html"><code>binary_repr</code></a> to convert a decimal value to its corresponding binary code.</p>
-</li>
-<li>
-<p>Create a function to take the input of a binary code and return the correponding Gray code of the binary code. </p>
-</li>
-<li>
-<p>Create a function to calculate the Hamming distance between two binary strings (two binary codes or two Gray codes).</p>
-</li>
-<li>
-<p>Consider a sequence of decimal values of <code>[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]</code>. Convert the sequence to a series of binary codes. Identify and plot (<a href="https://matplotlib.org/3.1.1/gallery/lines_bars_and_markers/simple_plot.html#sphx-glr-gallery-lines-bars-and-markers-simple-plot-py">example of a line plot</a>) the Hamming distances between the adjacent values.</p>
-</li>
-<li>
-<p>Repeat the previous step with Gray codes instead of binary codes.</p>
-</li>
-</ol>
+<!-- ## Binary-to-gray code conversion
+
+Binary string is often used in the implementation of genetic algorithm. However, the downside of using a binary code is that the Hamming distance between two adjacent values is not consistent. This situation is solved by using a Gray code in place of a binary code.
+
+1. `numpy` provides the function of [`binary_repr`](https://het.as.utexas.edu/HET/Software/Numpy/reference/generated/numpy.binary_repr.html) to convert a decimal value to its corresponding binary code.
+
+2. Create a function to take the input of a binary code and return the correponding Gray code of the binary code. 
+
+3. Create a function to calculate the Hamming distance between two binary strings (two binary codes or two Gray codes).
+
+4. Consider a sequence of decimal values of `[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]`. Convert the sequence to a series of binary codes. Identify and plot ([example of a line plot](https://matplotlib.org/3.1.1/gallery/lines_bars_and_markers/simple_plot.html#sphx-glr-gallery-lines-bars-and-markers-simple-plot-py)) the Hamming distances between the adjacent values.
+
+5. Repeat the previous step with Gray codes instead of binary codes. -->
+
 <h2 id="genetic-algorithm">Genetic algorithm</h2>
 <p>Consider the following problem: </p>
 <div class="admonition abstract">
@@ -1271,30 +1257,40 @@ if __name__ == "__main__":
 <p>In this problem as we only have one feature, i.e. the side length of the square, each chromosome consists of the value of the side length of the square. We will encode the chromosome in the form of Gray code. </p>
 </li>
 <li>
-<p>Create two functions <code>value2gray</code> and <code>gray2value</code> to convert a decimal value to its Gray code and vice versa.</p>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">value2gray</span><span class="p">(</span><span class="n">value</span><span class="p">):</span>
-  <span class="c1"># this function converts a decimal value to its gray code representation</span>
-  <span class="o">...</span>
-  <span class="k">return</span> <span class="n">gray</span>
-
-<span class="k">def</span> <span class="nf">gray2value</span><span class="p">(</span><span class="n">gray</span><span class="p">):</span>
-  <span class="c1"># this function converts a gray code representation to its decimal value</span>
-  <span class="o">...</span>
-  <span class="k">return</span> <span class="n">value</span>
-</code></pre></div>
+<p><code>numpy</code> provides the function of <a href="https://het.as.utexas.edu/HET/Software/Numpy/reference/generated/numpy.binary_repr.html"><code>binary_repr</code></a> to convert a decimal value to its corresponding binary code.</p>
 </li>
 <li>
-<p>Add the following code snippet to the end of the code to test your functions.</p>
-<div class="highlight"><pre><span></span><code><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
+<p>The Python built-in function <code>int</code> can be used to convert back from the binary string to its integer value.</p>
+</li>
+</ol>
+<!-- 2. Create two functions `value2gray` and `gray2value` to convert a decimal value to its Gray code and vice versa.
+
+    ```python
+    def value2gray(value):
+      # this function converts a decimal value to its gray code representation
+      ...
+      return gray
+
+    def gray2value(gray):
+      # this function converts a gray code representation to its decimal value
+      ...
+      return value
+    ``` -->
+
+<!-- 3. Add the following code snippet to the end of the code to test your functions.
+
+    <div class="highlight"><pre><span></span><code><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
   <span class="nb">print</span><span class="p">(</span><span class="n">value2gray</span><span class="p">(</span><span class="mi">10</span><span class="p">))</span>
   <span class="nb">print</span><span class="p">(</span><span class="n">gray2value</span><span class="p">(</span><span class="s2">&quot;1001&quot;</span><span class="p">))</span>
 </code></pre></div>
-<p>After running the file as a script, you should see the following output.</p>
-<div class="highlight"><pre><span></span><code>1111
-14
-</code></pre></div>
-</li>
-</ol>
+
+    After running the file as a script, you should see the following output.
+
+    ```
+    1111
+    14
+    ``` -->
+
 <h3 id="population-initialisation">Population initialisation</h3>
 <ol>
 <li>

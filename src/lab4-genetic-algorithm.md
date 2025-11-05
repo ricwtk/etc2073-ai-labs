@@ -3,7 +3,7 @@
 ## Lab learning outcomes
 After completing this lab, the students are able to implement genetic algorithm to solve an optimisation problem.
 
-## Binary-to-gray code conversion
+<!-- ## Binary-to-gray code conversion
 
 Binary string is often used in the implementation of genetic algorithm. However, the downside of using a binary code is that the Hamming distance between two adjacent values is not consistent. This situation is solved by using a Gray code in place of a binary code.
 
@@ -15,7 +15,7 @@ Binary string is often used in the implementation of genetic algorithm. However,
 
 4. Consider a sequence of decimal values of `[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]`. Convert the sequence to a series of binary codes. Identify and plot ([example of a line plot](https://matplotlib.org/3.1.1/gallery/lines_bars_and_markers/simple_plot.html#sphx-glr-gallery-lines-bars-and-markers-simple-plot-py)) the Hamming distances between the adjacent values.
 
-5. Repeat the previous step with Gray codes instead of binary codes.
+5. Repeat the previous step with Gray codes instead of binary codes. -->
 
 ## Genetic algorithm
 
@@ -104,7 +104,11 @@ if __name__ == "__main__":
 
 1. In this problem as we only have one feature, i.e. the side length of the square, each chromosome consists of the value of the side length of the square. We will encode the chromosome in the form of Gray code. 
 
-2. Create two functions `value2gray` and `gray2value` to convert a decimal value to its Gray code and vice versa.
+2. `numpy` provides the function of [`binary_repr`](https://het.as.utexas.edu/HET/Software/Numpy/reference/generated/numpy.binary_repr.html) to convert a decimal value to its corresponding binary code.
+
+3. The Python built-in function `int` can be used to convert back from the binary string to its integer value.
+
+<!-- 2. Create two functions `value2gray` and `gray2value` to convert a decimal value to its Gray code and vice versa.
 
     ```python
     def value2gray(value):
@@ -116,9 +120,9 @@ if __name__ == "__main__":
       # this function converts a gray code representation to its decimal value
       ...
       return value
-    ```
+    ``` -->
 
-3. Add the following code snippet to the end of the code to test your functions.
+<!-- 3. Add the following code snippet to the end of the code to test your functions.
 
     ```python
     if __name__ == "__main__":
@@ -131,7 +135,7 @@ if __name__ == "__main__":
     ```
     1111
     14
-    ```
+    ``` -->
 
 ### Population initialisation
 
