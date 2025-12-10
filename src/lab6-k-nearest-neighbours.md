@@ -1,4 +1,4 @@
-# Lab 5: *k* Nearest Neighbours (KNN)
+# Lab 6: *k* Nearest Neighbours (KNN)
 
 ## Objective
 
