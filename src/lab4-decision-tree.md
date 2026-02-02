@@ -1,4 +1,4 @@
-# Lab 5: Decision Tree
+# Lab 4: Decision Tree
 
 ## Lab learning outcomes
 After completing this lab, the students are able to

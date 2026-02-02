@@ -1,4 +1,4 @@
-# Lab 4: Genetic Algorithm
+# Lab 3 (extra): Genetic Algorithm
 
 ## Lab learning outcomes
 After completing this lab, the students are able to implement genetic algorithm to solve an optimisation problem.
