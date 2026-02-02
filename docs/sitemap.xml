@@ -2,106 +2,134 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://ricwtk.github.io/etc2073-ai-labs/</loc>
-         <lastmod>2025-12-10</lastmod>
+         <lastmod>2026-02-02</lastmod>
     </url>
     <url>
          <loc>https://ricwtk.github.io/etc2073-ai-labs/get-start/</loc>
-         <lastmod>2025-12-10</lastmod>
+         <lastmod>2026-02-02</lastmod>
     </url>
     <url>
          <loc>https://ricwtk.github.io/etc2073-ai-labs/lab1-introductory-python/</loc>
-         <lastmod>2025-12-10</lastmod>
+         <lastmod>2026-02-02</lastmod>
     </url>
     <url>
          <loc>https://ricwtk.github.io/etc2073-ai-labs/lab2-fuzzy/</loc>
-         <lastmod>2025-12-10</lastmod>
+         <lastmod>2026-02-02</lastmod>
     </url>
     <url>
          <loc>https://ricwtk.github.io/etc2073-ai-labs/lab3-uninformed-search/</loc>
-         <lastmod>2025-12-10</lastmod>
+         <lastmod>2026-02-02</lastmod>
     </url>
     <url>
-         <loc>https://ricwtk.github.io/etc2073-ai-labs/lab4-genetic-algorithm/</loc>
-         <lastmod>2025-12-10</lastmod>
+         <loc>https://ricwtk.github.io/etc2073-ai-labs/lab3%5Bextra%5D-genetic-algorithm/</loc>
+         <lastmod>2026-02-02</lastmod>
     </url>
     <url>
-         <loc>https://ricwtk.github.io/etc2073-ai-labs/lab5-decision-tree/</loc>
-         <lastmod>2025-12-10</lastmod>
+         <loc>https://ricwtk.github.io/etc2073-ai-labs/lab4-decision-tree/</loc>
+         <lastmod>2026-02-02</lastmod>
     </url>
     <url>
-         <loc>https://ricwtk.github.io/etc2073-ai-labs/lab6-k-nearest-neighbours/</loc>
-         <lastmod>2025-12-10</lastmod>
+         <loc>https://ricwtk.github.io/etc2073-ai-labs/lab5-k-nearest-neighbours/</loc>
+         <lastmod>2026-02-02</lastmod>
     </url>
     <url>
          <loc>https://ricwtk.github.io/etc2073-ai-labs/archive/202301/get-start/</loc>
-         <lastmod>2025-12-10</lastmod>
+         <lastmod>2026-02-02</lastmod>
     </url>
     <url>
          <loc>https://ricwtk.github.io/etc2073-ai-labs/archive/202301/lab1-fuzzy/</loc>
-         <lastmod>2025-12-10</lastmod>
+         <lastmod>2026-02-02</lastmod>
     </url>
     <url>
          <loc>https://ricwtk.github.io/etc2073-ai-labs/archive/202301/lab2-uninformed-search/</loc>
-         <lastmod>2025-12-10</lastmod>
+         <lastmod>2026-02-02</lastmod>
     </url>
     <url>
          <loc>https://ricwtk.github.io/etc2073-ai-labs/archive/202301/lab3-informed-search/</loc>
-         <lastmod>2025-12-10</lastmod>
+         <lastmod>2026-02-02</lastmod>
     </url>
     <url>
          <loc>https://ricwtk.github.io/etc2073-ai-labs/archive/202301/lab4-particle-swarm-optimisation/</loc>
-         <lastmod>2025-12-10</lastmod>
+         <lastmod>2026-02-02</lastmod>
     </url>
     <url>
          <loc>https://ricwtk.github.io/etc2073-ai-labs/archive/202301/lab5-decision-tree/</loc>
-         <lastmod>2025-12-10</lastmod>
+         <lastmod>2026-02-02</lastmod>
     </url>
     <url>
          <loc>https://ricwtk.github.io/etc2073-ai-labs/archive/202301/pre-lab/</loc>
-         <lastmod>2025-12-10</lastmod>
+         <lastmod>2026-02-02</lastmod>
     </url>
     <url>
          <loc>https://ricwtk.github.io/etc2073-ai-labs/archive/202401/get-start/</loc>
-         <lastmod>2025-12-10</lastmod>
+         <lastmod>2026-02-02</lastmod>
     </url>
     <url>
          <loc>https://ricwtk.github.io/etc2073-ai-labs/archive/202401/lab1-introductory-python/</loc>
-         <lastmod>2025-12-10</lastmod>
+         <lastmod>2026-02-02</lastmod>
     </url>
     <url>
          <loc>https://ricwtk.github.io/etc2073-ai-labs/archive/202401/lab2-fuzzy/</loc>
-         <lastmod>2025-12-10</lastmod>
+         <lastmod>2026-02-02</lastmod>
     </url>
     <url>
          <loc>https://ricwtk.github.io/etc2073-ai-labs/archive/202401/lab3-genetic-algorithm/</loc>
-         <lastmod>2025-12-10</lastmod>
+         <lastmod>2026-02-02</lastmod>
     </url>
     <url>
          <loc>https://ricwtk.github.io/etc2073-ai-labs/archive/202401/lab4-particle-swarm-optimisation/</loc>
-         <lastmod>2025-12-10</lastmod>
+         <lastmod>2026-02-02</lastmod>
     </url>
     <url>
          <loc>https://ricwtk.github.io/etc2073-ai-labs/archive/202401/lab5-decision-tree/</loc>
-         <lastmod>2025-12-10</lastmod>
+         <lastmod>2026-02-02</lastmod>
     </url>
     <url>
          <loc>https://ricwtk.github.io/etc2073-ai-labs/archive/202501/get-start/</loc>
-         <lastmod>2025-12-10</lastmod>
+         <lastmod>2026-02-02</lastmod>
     </url>
     <url>
          <loc>https://ricwtk.github.io/etc2073-ai-labs/archive/202501/lab1-introductory-python/</loc>
-         <lastmod>2025-12-10</lastmod>
+         <lastmod>2026-02-02</lastmod>
     </url>
     <url>
          <loc>https://ricwtk.github.io/etc2073-ai-labs/archive/202501/lab2-fuzzy/</loc>
-         <lastmod>2025-12-10</lastmod>
+         <lastmod>2026-02-02</lastmod>
     </url>
     <url>
          <loc>https://ricwtk.github.io/etc2073-ai-labs/archive/202501/lab3-genetic-algorithm/</loc>
-         <lastmod>2025-12-10</lastmod>
+         <lastmod>2026-02-02</lastmod>
     </url>
     <url>
          <loc>https://ricwtk.github.io/etc2073-ai-labs/archive/202501/lab4-decision-tree/</loc>
-         <lastmod>2025-12-10</lastmod>
+         <lastmod>2026-02-02</lastmod>
+    </url>
+    <url>
+         <loc>https://ricwtk.github.io/etc2073-ai-labs/archive/202509/get-start/</loc>
+         <lastmod>2026-02-02</lastmod>
+    </url>
+    <url>
+         <loc>https://ricwtk.github.io/etc2073-ai-labs/archive/202509/lab1-introductory-python/</loc>
+         <lastmod>2026-02-02</lastmod>
+    </url>
+    <url>
+         <loc>https://ricwtk.github.io/etc2073-ai-labs/archive/202509/lab2-fuzzy/</loc>
+         <lastmod>2026-02-02</lastmod>
+    </url>
+    <url>
+         <loc>https://ricwtk.github.io/etc2073-ai-labs/archive/202509/lab3-uninformed-search/</loc>
+         <lastmod>2026-02-02</lastmod>
+    </url>
+    <url>
+         <loc>https://ricwtk.github.io/etc2073-ai-labs/archive/202509/lab4-genetic-algorithm/</loc>
+         <lastmod>2026-02-02</lastmod>
+    </url>
+    <url>
+         <loc>https://ricwtk.github.io/etc2073-ai-labs/archive/202509/lab5-decision-tree/</loc>
+         <lastmod>2026-02-02</lastmod>
+    </url>
+    <url>
+         <loc>https://ricwtk.github.io/etc2073-ai-labs/archive/202509/lab6-k-nearest-neighbours/</loc>
+         <lastmod>2026-02-02</lastmod>
     </url>
 </urlset>
